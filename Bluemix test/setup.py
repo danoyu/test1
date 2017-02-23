@@ -73,5 +73,5 @@ def create_list_classifiers(filename):
             name_classifier = file.split('.csv')[0] + '_classifier_' + nb
             create_classifier('training_csv_files/' + file, name_classifier)
    
-create_list_classifiers(filename) 
-print(list_classifiers_name_id())      
+#create_list_classifiers(filename) 
+#print(list_classifiers_name_id())      
