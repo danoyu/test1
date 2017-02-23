@@ -11,3 +11,6 @@ def hello_wolrd():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port)
+
+classifier.create_list_classifiers(filename) 
+print(classifier.list_classifiers_name_id())  
